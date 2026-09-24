@@ -55,3 +55,4 @@ Solsamfundets program for interstellar udforskning og kontakt.
 
 H.M.R.S. Mjølner opererer uden for Solsystemets etablerede territorier og er udst
 
+teste teste
