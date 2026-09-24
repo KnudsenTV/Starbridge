@@ -1,4 +1,5 @@
 # 🌍 SOLSAMFUNDET
+![[07_Solsamfundet.png]]
 
 > **SOLNET // SAMFUNDSREGISTER**  
 > **ADGANGSNIVEAU:** OFFENTLIG  
