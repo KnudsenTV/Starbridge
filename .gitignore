@@ -12,3 +12,6 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+content/99 CLASSIFIED/
+content/.obsidian/
+content-backup/

@@ -1,3 +1,382 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* ========================================
+   STARBRIDGE // SOLNET INTERFACE
+   ======================================== */
+
+/* Teknisk baggrund */
+body {
+  background:
+    linear-gradient(rgba(0, 190, 255, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 190, 255, 0.018) 1px, transparent 1px),
+    var(--light);
+  background-size: 32px 32px;
+}
+
+/* SOLNET overskrifter */
+h1,
+h2,
+h3,
+h4,
+.page-title {
+  letter-spacing: 0.035em;
+}
+
+/* Links */
+a {
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+
+a:hover {
+  text-shadow: 0 0 8px rgba(50, 217, 255, 0.65);
+}
+
+/* Venstre navigation */
+.left.sidebar {
+  border-right: 1px solid rgba(50, 217, 255, 0.22);
+}
+
+/* Højre informationspanel */
+.right.sidebar {
+  border-left: 1px solid rgba(50, 217, 255, 0.22);
+}
+
+/* STARBRIDGE // SOLNET titel */
+.page-title {
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+}
+
+.page-title a {
+  color: var(--secondary);
+  text-shadow: 0 0 10px rgba(50, 217, 255, 0.25);
+}
+
+/* Explorer */
+.explorer {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.explorer .title-button {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Systemagtige citatbokse */
+blockquote {
+  border-left: 2px solid var(--secondary);
+  background: rgba(50, 217, 255, 0.045);
+  padding: 0.8rem 1rem;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+/* Vandrette skillelinjer */
+hr {
+  border: none;
+  border-top: 1px solid rgba(50, 217, 255, 0.2);
+}
+
+/* Markeret tekst */
+::selection {
+  background: rgba(50, 217, 255, 0.3);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(50, 217, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(50, 217, 255, 0.55);
+}
+/* ========================================
+   SOLNET DASHBOARD
+   ======================================== */
+
+.page-title a,
+.page-title a:visited {
+  color: #32d9ff !important;
+  text-shadow: 0 0 12px rgba(50, 217, 255, 0.35);
+}
+
+/* Hero terminal */
+
+.solnet-hero {
+  position: relative;
+  border: 1px solid rgba(50, 217, 255, 0.32);
+  border-left: 3px solid #32d9ff;
+  padding: 1.5rem;
+  margin: 1rem 0 2rem;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(50, 217, 255, 0.07),
+      rgba(50, 217, 255, 0.015)
+    );
+}
+
+.solnet-hero::before {
+  content: "SOLNET // NODE 01";
+  position: absolute;
+  top: -0.7rem;
+  right: 1rem;
+  padding: 0 0.5rem;
+  background: var(--light);
+  color: var(--secondary);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+}
+
+.solnet-hero h1 {
+  color: #32d9ff;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 2.7rem;
+  letter-spacing: 0.14em;
+  margin-bottom: 0.3rem;
+  text-shadow: 0 0 18px rgba(50, 217, 255, 0.2);
+}
+
+.solnet-kicker {
+  font-family: "IBM Plex Mono", monospace;
+  color: var(--secondary);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+}
+
+/* Status line */
+
+.solnet-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: 1.2rem 0;
+  padding: 0.65rem 0;
+  border-top: 1px solid rgba(50, 217, 255, 0.2);
+  border-bottom: 1px solid rgba(50, 217, 255, 0.2);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+}
+
+.status-online {
+  color: #59ffb0;
+  text-shadow: 0 0 7px rgba(89, 255, 176, 0.4);
+}
+
+/* Dashboard */
+
+.solnet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+/* Cards */
+
+.solnet-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 125px;
+  padding: 1.1rem;
+  border: 1px solid rgba(50, 217, 255, 0.28);
+  background: rgba(8, 25, 35, 0.65);
+  color: var(--dark) !important;
+  text-decoration: none !important;
+  overflow: hidden;
+}
+
+.solnet-card::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: -18px;
+  bottom: -18px;
+  border: 1px solid rgba(50, 217, 255, 0.4);
+  transform: rotate(45deg);
+}
+
+.solnet-card:hover {
+  border-color: #32d9ff;
+  background: rgba(50, 217, 255, 0.08);
+  box-shadow:
+    inset 0 0 20px rgba(50, 217, 255, 0.035),
+    0 0 12px rgba(50, 217, 255, 0.09);
+  transform: translateY(-2px);
+}
+
+.solnet-card strong {
+  margin: 0.65rem 0 0.25rem;
+  color: #32d9ff;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+}
+
+.solnet-card > span:not(.card-code) {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+}
+
+.solnet-card small {
+  margin-top: auto;
+  padding-top: 1rem;
+  color: var(--darkgray);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+}
+
+.card-code {
+  color: var(--darkgray);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+}
+
+/* Classified terminal */
+
+.solnet-card.classified {
+  border-color: rgba(255, 84, 84, 0.55);
+  background: rgba(70, 10, 10, 0.12);
+}
+
+.solnet-card.classified strong {
+  color: #ff6262;
+}
+
+.solnet-card.classified .card-code,
+.solnet-card.classified small {
+  color: #ff8585;
+}
+
+.solnet-card.classified:hover {
+  border-color: #ff6262;
+  background: rgba(255, 70, 70, 0.07);
+  box-shadow: 0 0 12px rgba(255, 70, 70, 0.12);
+}
+
+/* Bottom network panel */
+
+.solnet-footer {
+  margin-top: 2rem;
+  padding: 1rem 1.2rem;
+  border-top: 1px solid rgba(50, 217, 255, 0.3);
+  border-bottom: 1px solid rgba(50, 217, 255, 0.3);
+  font-family: "IBM Plex Mono", monospace;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+  .solnet-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .solnet-hero h1 {
+    font-size: 2rem;
+  }
+
+  .solnet-status {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+}
+/* Fix Quartz link styling on SOLNET cards */
+
+a.solnet-card,
+a.solnet-card:visited,
+a.solnet-card.internal,
+a.solnet-card.external {
+  background-color: rgba(7, 16, 24, 0.92) !important;
+  background-image: none !important;
+  color: #d9f3ff !important;
+}
+
+a.solnet-card:hover {
+  background-color: rgba(10, 35, 48, 0.96) !important;
+  background-image: none !important;
+}
+
+a.solnet-card.classified,
+a.solnet-card.classified:visited {
+  background-color: rgba(30, 8, 12, 0.92) !important;
+  border-color: rgba(255, 98, 98, 0.55) !important;
+}
+
+a.solnet-card.classified:hover {
+  background-color: rgba(55, 10, 15, 0.96) !important;
+}
+/* ========================================
+   SOLNET UI LABELS
+   ======================================== */
+
+/* Explorer -> SOLNET DATABASE */
+
+.explorer .title-button {
+  position: relative;
+  color: transparent !important;
+}
+
+.explorer .title-button::before {
+  content: "SOLNET DATABASE";
+  color: var(--dark);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+}
+
+.explorer .title-button svg {
+  color: var(--dark);
+}
+/* SOLNET interface labels */
+
+/* Graph View -> NETWORK MAP */
+.graph > h3 {
+  font-size: 0 !important;
+}
+
+.graph > h3::after {
+  content: "NETWORK MAP";
+  font-size: 1.4rem;
+}
+
+/* Table of Contents -> DATA INDEX */
+.toc > h3 {
+  font-size: 0 !important;
+}
+
+.toc > h3::after {
+  content: "DATA INDEX";
+  font-size: 1.4rem;
+}
+/* SOLNET search field */
+.search-button p {
+  font-size: 0;
+}
+
+.search-button p::after {
+  content: "SEARCH SOLNET";
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  font-family: "IBM Plex Mono", monospace;
+}
+/* Table of Contents -> DATA INDEX */
+
+.toc-header h3 {
+  font-size: 0 !important;
+}
+
+.toc-header h3::after {
+  content: "DATA INDEX";
+  font-size: 1.35rem;
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: 0.05em;
+}
