@@ -1,5 +1,5 @@
 # 👤 AMARA OKAFOR
-
+![[amara-okafor.png|900]]
 > **SOLNET // PERSONREGISTER**  
 > **NAVN:** Amara Okafor  
 > **EMBEDE:** Generalsekretær for [[Solsamfundet]]  
