@@ -1,5 +1,6 @@
 # 🚀 H.M.R.S. MJØLNER
 
+![[mjb.png]]
 > **SOLNET // FLÅDEREGISTER**  
 > **ADGANGSNIVEAU:** OFFENTLIG  
 > **FARTØJ:** H.M.R.S. MJØLNER  
