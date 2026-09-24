@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: localhost
+  baseUrl: knudsentv.github.io/Starbridge
   ignorePatterns:
     - private
     - templates
