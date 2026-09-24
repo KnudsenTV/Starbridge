@@ -53,6 +53,14 @@ Solsamfundets program for interstellar udforskning og kontakt.
 **TILHØRSFORHOLD:** [[Solsamfundet]]  
 **STATUS:** Aktiv
 
-H.M.R.S. Mjølner opererer uden for Solsystemets etablerede territorier og er udst
+H.M.R.S. Mjølner opererer uden for Solsystemets etablerede territorier og er udstyret til langvarige ekspeditioner i ukendt rum.
 
-teste teste
+Fartøjets primære opgaver omfatter udforskning af ukendte stjernesystemer, videnskabelige undersøgelser, nødhjælp, eftersøgning af forsvundne ekspeditioner og kontakt med isolerede menneskelige kolonier.
+
+Som en del af [[Starbridge-programmet]] har Mjølners besætning vidtgående operationel autonomi. Afstanden til Solsystemet betyder, at kaptajnen og besætningen ofte må træffe beslutninger uden mulighed for øjeblikkelig kontakt med [[Solsamfundet]].
+
+Mjølner er konstrueret til at rejse derhen, hvor menneskehedens kort ender.
+
+> **MISSIONSPRINCIP:**  
+> *Udforsk. Undersøg. Hjælp, hvor det er muligt. Vend hjem med mere viden, end du tog med.*
+

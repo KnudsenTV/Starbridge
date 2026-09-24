@@ -1,5 +1,5 @@
 # ⚔️ SOLKRIGEN
-
+![[Solkrigen.png]]
 
 > **SOLNET // HISTORISK ARKIV**  
 > **ADGANGSNIVEAU:** OFFENTLIG  

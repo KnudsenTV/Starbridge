@@ -1,5 +1,5 @@
 # 👑 FREDERIKANSKE BEVÆGELSER
-
+![[Frederikanske_Bevaegelser.png]]
 > **SOLNET // KULTUR- OG RELIGIONSREGISTER**  
 > **ADGANGSNIVEAU:** OFFENTLIG  
 > **OPRINDELSE:** [[Solsamfundet]]  

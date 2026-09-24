@@ -1,5 +1,6 @@
 # 🌍 FORMANDENS DEMOKRATISKE REPUBLIK JORDEN
 
+
 > **SOLNET // HISTORISK ORGANISATIONSREGISTER**  
 > **FORKORTELSE:** F.D.R.J.  
 > **HJEMVERDEN:** [[Jorden]]  
@@ -98,7 +99,7 @@ Men politisk var de blevet samlet under én overordnet stat.
 
 ---
 
-# 👤 FORMÅNDEN
+# 👤 FORMANDEN
 
 Republikkens øverste politiske embede var:
 

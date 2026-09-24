@@ -1,5 +1,5 @@
 # 👑 FREDERIK VII
-
+![[Friedrichviidenmark.jpg]]
 > **SOLNET // HISTORISK PERSONREGISTER**  
 > **NAVN:** Frederik VII  
 > **LEVETID:** 1808–1863  
